@@ -1,0 +1,21 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1732128681776' stop='1732128682890'>
+    <name>Create Note and Verify</name>
+    <title>Create Note and Verify</title>
+    <test-cases>
+        <test-case start='1732128681776' status='failed' stop='1732128682890'>
+            <name>should create a note and handle various status responses</name>
+            <title>should create a note and handle various status responses</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>TypeError: Cannot read properties of undefined (reading 'createAttachment')</message>
+                <stack-trace>TypeError: Cannot read properties of undefined (reading 'createAttachment')
+                    at Object.createAttachment (C:\Projects\APIs\test\6- CreateNote.test.js:33:16)
+                    at processTicksAndRejections (node:internal/process/task_queues:105:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,15 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1732131930047' stop='1732131931375'>
+    <name>Update Profile Information</name>
+    <title>Update Profile Information</title>
+    <test-cases>
+        <test-case start='1732131930048' status='passed' stop='1732131931374'>
+            <name>should retrieve and update profile information, and verify various status responses</name>
+            <title>should retrieve and update profile information, and verify various status responses</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

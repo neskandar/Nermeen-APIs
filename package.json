@@ -1,0 +1,26 @@
+{
+  "scripts": {
+    "test": "jest",
+    "test:1": "jest test/1- Api-Health-Check.test.js",
+    "test:2": "jest test/2- Register-new-user.test.js",
+    "test:3": "jest test/3- Login-NewUser.test.js",
+    "test:4": "jest test/4- Update-ProfileInfo.test.js",
+    "test:5": "jest test/5- ChangePassword.test.js",
+    "test:6": "jest test/6- CreateNote.test.js",
+    "test:7": "jest test/7- UpdateNote.test.js",
+    "test:8": "jest test/8- DeleteNote.test.js",
+    "test:sequential": "npm run test:1 && npm run test:2 && npm run test:3 && npm run test:4 && npm run test:5 && npm run test:6 && npm run test:7 && npm run test:8",
+    "allure:generate": "allure generate allure-results --clean -o allure-report",
+    "allure:open": "allure open allure-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.49.0",
+    "@types/node": "^22.9.0",
+    "allure-commandline": "^2.32.0",
+    "allure-playwright": "^3.0.6",
+    "jest": "^29.7.0",
+    "jest-allure": "^0.1.3",
+    "jest-jasmine2": "^29.7.0",
+    "supertest": "^7.0.0"
+  }
+}

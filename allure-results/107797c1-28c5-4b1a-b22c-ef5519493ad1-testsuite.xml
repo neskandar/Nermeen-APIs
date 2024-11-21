@@ -1,0 +1,27 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1732128394567' stop='1732128394579'>
+    <name>Update Note and Verify</name>
+    <title>Update Note and Verify</title>
+    <test-cases>
+        <test-case start='1732128394568' status='failed' stop='1732128394578'>
+            <name>should update a note and handle various status responses</name>
+            <title>should update a note and handle various status responses</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>SyntaxError: Unexpected end of JSON input</message>
+                <stack-trace>SyntaxError: Unexpected end of JSON input
+                    at JSON.parse (&lt;anonymous>)
+                    at Object.parse (C:\Projects\APIs\test\7-UpdateNote.test.js:13:23)
+                    at Object.asyncJestTest (C:\Projects\APIs\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:125:37)
+                    at C:\Projects\APIs\node_modules\jest-jasmine2\build\queueRunner.js:41:12
+                    at new Promise (&lt;anonymous>)
+                    at mapper (C:\Projects\APIs\node_modules\jest-jasmine2\build\queueRunner.js:28:19)
+                    at C:\Projects\APIs\node_modules\jest-jasmine2\build\queueRunner.js:68:41
+                    at processTicksAndRejections (node:internal/process/task_queues:105:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

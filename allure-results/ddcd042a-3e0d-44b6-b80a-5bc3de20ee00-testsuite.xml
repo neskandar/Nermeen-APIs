@@ -1,0 +1,21 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1732128681781' stop='1732128682836'>
+    <name>Update Profile Information</name>
+    <title>Update Profile Information</title>
+    <test-cases>
+        <test-case start='1732128681782' status='failed' stop='1732128682836'>
+            <name>should retrieve and update profile information, and verify various status responses</name>
+            <title>should retrieve and update profile information, and verify various status responses</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>TypeError: Cannot read properties of undefined (reading 'createAttachment')</message>
+                <stack-trace>TypeError: Cannot read properties of undefined (reading 'createAttachment')
+                    at Object.createAttachment (C:\Projects\APIs\test\4- Update-ProfileInfo.test.js:25:16)
+                    at processTicksAndRejections (node:internal/process/task_queues:105:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
