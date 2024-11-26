@@ -2,6 +2,9 @@ const supertestRequest = require('supertest');
 const fs = require('fs');
 const { allure: jestAllure } = require('jest-allure');
 
+// Increase Jest timeout to 30 seconds 
+jest.setTimeout(30000);
+
 describe('User Registration', () => {
   it('should register a new user and verify it’s created', async () => {
     const apiEndpoint = 'https://practice.expandtesting.com/notes/api/users/register';

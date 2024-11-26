@@ -1,0 +1,15 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1732651246025' stop='1732651246948'>
+    <name>API Health Check</name>
+    <title>API Health Check</title>
+    <test-cases>
+        <test-case start='1732651246025' status='passed' stop='1732651246948'>
+            <name>should verify the API is healthy and unhealthy</name>
+            <title>should verify the API is healthy and unhealthy</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
