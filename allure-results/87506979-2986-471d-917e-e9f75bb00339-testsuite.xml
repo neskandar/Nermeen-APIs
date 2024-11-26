@@ -1,0 +1,27 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1732639153692' stop='1732639155110'>
+    <name>Update Note and Verify</name>
+    <title>Update Note and Verify</title>
+    <test-cases>
+        <test-case start='1732639153693' status='failed' stop='1732639155110'>
+            <name>should update a note and handle various status responses</name>
+            <title>should update a note and handle various status responses</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Error: expect(received).toContain(expected) // indexOf
+                
+                Expected substring: "Bad Request"
+                Received string:    "Note ID must be a valid ID"</message>
+                <stack-trace>Error: expect(received).toContain(expected) // indexOf
+                
+                Expected substring: "Bad Request"
+                Received string:    "Note ID must be a valid ID"
+                    at Object.toContain (C:\Projects\APIs\test\7- UpdateNote.test.js:60:38)
+                    at processTicksAndRejections (node:internal/process/task_queues:105:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,15 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1732639153690' stop='1732639155832'>
+    <name>User Login and Profile Verification</name>
+    <title>User Login and Profile Verification</title>
+    <test-cases>
+        <test-case start='1732639153690' status='passed' stop='1732639155832'>
+            <name>should log in with a user and verify profile information</name>
+            <title>should log in with a user and verify profile information</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

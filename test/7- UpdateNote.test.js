@@ -14,10 +14,14 @@ describe('Update Note and Verify', () => {
 
     // Updated note details
     const updatedNoteDetails = {
+      id:note.id,
       title: note.title,
       description: note.description,
       category: note.category,
-      completed: true // Update completed status to true
+      completed: true, // Update completed status to true
+      create_dt: note.create_dt,
+      update_dt: note.update_dt,
+      user_id: note.user_id
     };
 
     // Make a PATCH request to update the note

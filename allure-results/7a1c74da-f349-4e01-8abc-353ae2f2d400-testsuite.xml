@@ -1,0 +1,15 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1732649373447' stop='1732649374925'>
+    <name>Delete Note and Verify</name>
+    <title>Delete Note and Verify</title>
+    <test-cases>
+        <test-case start='1732649373447' status='passed' stop='1732649374924'>
+            <name>should delete a note and handle various status responses</name>
+            <title>should delete a note and handle various status responses</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

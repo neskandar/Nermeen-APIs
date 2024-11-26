@@ -1,0 +1,15 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1732649735947' stop='1732649736719'>
+    <name>Update Note and Verify</name>
+    <title>Update Note and Verify</title>
+    <test-cases>
+        <test-case start='1732649735948' status='passed' stop='1732649736719'>
+            <name>should update a note and handle various status responses</name>
+            <title>should update a note and handle various status responses</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

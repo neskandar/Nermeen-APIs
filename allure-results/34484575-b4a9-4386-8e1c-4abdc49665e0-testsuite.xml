@@ -1,0 +1,15 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1732639153691' stop='1732639155671'>
+    <name>Change Password</name>
+    <title>Change Password</title>
+    <test-cases>
+        <test-case start='1732639153692' status='passed' stop='1732639155671'>
+            <name>should change the password and handle various status responses</name>
+            <title>should change the password and handle various status responses</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

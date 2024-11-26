@@ -1,0 +1,27 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1732639404123' stop='1732639404877'>
+    <name>Delete Note and Verify</name>
+    <title>Delete Note and Verify</title>
+    <test-cases>
+        <test-case start='1732639404123' status='failed' stop='1732639404877'>
+            <name>should delete a note and handle various status responses</name>
+            <title>should delete a note and handle various status responses</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Error: expect(received).toBe(expected) // Object.is equality
+                
+                Expected: "Access token is not valid or has expired, you will need to login"
+                Received: "No authentication token specified in x-auth-token header"</message>
+                <stack-trace>Error: expect(received).toBe(expected) // Object.is equality
+                
+                Expected: "Access token is not valid or has expired, you will need to login"
+                Received: "No authentication token specified in x-auth-token header"
+                    at Object.toBe (C:\Projects\APIs\test\8- DeleteNote.test.js:94:38)
+                    at processTicksAndRejections (node:internal/process/task_queues:105:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
